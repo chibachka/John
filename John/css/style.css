@@ -101,7 +101,7 @@ body {
 }
 
 .wrapper {
-  overflow: hidden;
+  overflow: scroll;
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -109,7 +109,7 @@ body {
 }
 ._container {
   display: flex;
-  max-width: 1072px;
+  max-width: 856px;
   min-width: 250px;
   display: flex;
   margin: 0px auto;
@@ -161,19 +161,106 @@ body {
   transition: color 0.25s ease 0.1s;
 }
 
+.hello__container {
+  padding: 125px 30px 0px 30px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 612px) {
+  .hello__container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 30px 0px 30px;
+    text-align: center;
+  }
+}
+.hello__content {
+  max-width: 490px;
+  margin: 0px 0px 0px 0px;
+  flex: 0 1 auto;
+  flex-direction: column;
+}
+@media (max-width: 612px) {
+  .hello__content {
+    align-items: center;
+    order: 2;
+  }
+}
+.hello__avatar {
+  display: flex;
+  padding: 0px 0px 0px 50px;
+}
+@media (max-width: 612px) {
+  .hello__avatar {
+    align-items: center;
+    order: 1;
+    padding: 0px 0px 43px 0px;
+  }
+}
+.hello__avatar img {
+  width: 243px;
+  height: 243px;
+}
+@media (max-width: 612px) {
+  .hello__title {
+    align-content: center;
+    text-align: center;
+  }
+}
+.hello__text {
+  padding: 40px 0px 40px 0px;
+}
+@media (max-width: 612px) {
+  .hello__text {
+    align-content: center;
+    text-align: center;
+  }
+}
+@media (max-width: 612px) {
+  .hello__btn {
+    align-content: center;
+    justify-content: center;
+  }
+}
+
+.title {
+  font-family: "Heebo";
+  color: #21243D;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 136.3636363636%;
+}
+@media (max-width: 479.98px) {
+  .title {
+    font-size: 32px;
+  }
+}
+
+.text {
+  font-family: "Heebo";
+  color: #21243D;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
 .btn {
-  background: #FF6464;
+  background-color: #FF6464;
   border-radius: 5px;
   display: inline-flex;
-  padding: 0px 20px 5px 20px;
+  padding: 0px 20px 2px 20px;
   align-items: center;
   justify-content: center;
   text-align: center;
+  line-height: 145%;
   height: 47px;
   font-size: 20px;
   font-family: "Heebo";
+  font-weight: 500;
   color: white;
 }
 .btn:hover {
   background: #ff4b4b;
+  transition: background-color 0.25s ease 0.1s;
 }
