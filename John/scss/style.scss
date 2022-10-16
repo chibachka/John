@@ -1,2 +1,19 @@
+//* CONNECTING RESET STYLE FILES
 @import "../scss/0style.scss";
-@import url(https://fonts.googleapis.com/css?family=Heebo:regular,500,700,,900&display=swap);
+
+//* CONNECTING FONTS
+@import "../scss/fonts.scss";
+
+//* VARIABLES
+@import "../scss/variables.scss";
+
+
+
+//* BODY
+@import "../scss/body.scss";
+
+//* HEADER 
+@import "../scss/header-homepage.scss";
+
+//* MAIN
+@import "../scss/main-homapage.scss"

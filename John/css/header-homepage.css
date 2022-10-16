@@ -1,0 +1,18 @@
+._container {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.header__content {
+  max-width: 1032px;
+}
+.icon-menu {
+  display: none;
+  @medi;
+}

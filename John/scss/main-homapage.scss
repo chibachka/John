@@ -1,0 +1,44 @@
+.hello{
+	&__container{
+
+	}
+	&__content{
+
+	}
+	&__avatar{
+
+	}
+	&__title{
+
+	}
+	&__text{
+
+	}
+	&__btn{
+
+	}
+}
+
+.title{
+
+}
+.text{
+
+}
+.btn{
+	background: $pink;
+	border-radius: 5px;
+	display: inline-flex ;
+	padding: 0px 20px 5px 20px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 47px;
+	font-size: 20px;
+	font-family: "Heebo";
+	color: white;
+	&:hover{
+		background: darken($color: $pink, $amount: 5%);
+	}
+}
+	

@@ -1,5 +1,4 @@
 /**==================RESET CSS===================*/
-@import url(https://fonts.googleapis.com/css?family=Heebo:regular,500,700,,900&display=swap);
 * {
   padding: 0;
   margin: 0;
@@ -31,6 +30,10 @@ html, body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0px 0px 0px 0px;
 }
 
 input, button, textarea {

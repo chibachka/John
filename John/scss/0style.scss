@@ -1,5 +1,4 @@
 /**==================RESET CSS===================*/
-
 *{
 	padding: 0;
 	margin: 0;
@@ -24,6 +23,9 @@ html,body{
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
+}
+body{
+	margin: 0px 0px 0px 0px;
 }
 input,button,textarea{font-family:inherit;}
 

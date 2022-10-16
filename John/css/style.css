@@ -1,0 +1,179 @@
+/**==================RESET CSS===================*/
+@import url(https://fonts.googleapis.com/css?family=Heebo:regular,500,700,,900&display=swap);
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0px 0px 0px 0px;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/**======================USER CSS========================*/
+@font-face {
+  font-family: "Heebo";
+  src: url(../fonts/icomoon.ttf);
+}
+._icon-fb:before {
+  content: "\e900";
+}
+
+._icon-Group:before {
+  content: "\e901";
+}
+
+._icon-insta:before {
+  content: "\e902";
+}
+
+._icon-Linkedin:before {
+  content: "\e903";
+}
+
+body {
+  display: flex;
+}
+
+.wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100%;
+}
+._container {
+  display: flex;
+  max-width: 1072px;
+  min-width: 250px;
+  display: flex;
+  margin: 0px auto;
+}
+
+.header__content {
+  max-width: 1072px;
+  min-width: 250px;
+  padding: 0px 30px;
+  display: flex;
+  margin: 0px auto;
+}
+.header__menu {
+  flex: 1 1 auto;
+}
+
+.menu__list {
+  height: 82px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+@media (max-width: 479.98px) {
+  .menu__list {
+    height: 52px;
+  }
+}
+@media (max-width: 479.98px) {
+  .menu__list {
+    justify-content: center;
+  }
+}
+.menu__list li:not(:first-child) {
+  margin: 0px 0px 0px 33px;
+}
+.menu__link {
+  font-family: "Heebo";
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+}
+@media (max-width: 479.98px) {
+  .menu__link {
+    font-size: 18px;
+  }
+}
+.menu__link:hover {
+  color: #FF6464;
+  transition: color 0.25s ease 0.1s;
+}
+
+.btn {
+  background: #FF6464;
+  border-radius: 5px;
+  display: inline-flex;
+  padding: 0px 20px 5px 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 47px;
+  font-size: 20px;
+  font-family: "Heebo";
+  color: white;
+}
+.btn:hover {
+  background: #ff4b4b;
+}
