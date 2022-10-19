@@ -1,20 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Heebo:regular,500,700,,900&display=swap);
 @font-face {
   font-family: "Heebo";
-  src: url(../fonts/icomoon.ttf);
-}
-._icon-fb:before {
-  content: "\e900";
-}
-
-._icon-Group:before {
-  content: "\e901";
-}
-
-._icon-insta:before {
-  content: "\e902";
-}
-
-._icon-Linkedin:before {
-  content: "\e903";
 }

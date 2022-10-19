@@ -98,10 +98,8 @@
 		transition: background-color 0.25s ease 0.1s;
 	}
 }
-
 .recent-posts{
 	background-color: $blue;
-
 }
 .recent-posts__container {
 	display: flex;
@@ -111,9 +109,6 @@
 		padding: 0px 11px;
 	}
 }
-
-._container {}
-
 .recent-posts__header {
 	display: flex;
 	flex-direction: row;
@@ -125,7 +120,6 @@
 	align-items: center;
 	
 }
-
 .recent-posts__title {
 	font-family: 'Heebo';
 	font-weight: 400;
@@ -135,7 +129,6 @@
 		font-size: 18px;
 	}
 }
-
 .recent-posts__view-all {
 	font-family: 'Heebo';
 	font-weight: 400;
@@ -149,9 +142,8 @@
 		visibility: hidden;
 		pointer-events: none;
 		position: absolute;
-		top: -100%;
+		top: -200%;
 	}
-
 }
 .recent-posts__items {
 	display: flex;
@@ -162,7 +154,6 @@
 	justify-content: space-between;
 	margin: 0px 0px 32px 0px;
 }
-
 .recent-posts__item-1 {
 	background-color: white;
 	margin: 0px 5px 0px 0px;
@@ -181,9 +172,6 @@
 	padding: 35px 37px 35px 23px;
 	border-radius: 4px;
 }
-
-.item-1__title {}
-
 .title-item {
 	font-family: 'Heebo';
 	font-weight: 700;
@@ -207,7 +195,6 @@
 		font-size: 16px;
 	}
 }
-
 .description-text {
 	padding: 11px 0px 5px 0px;
 	font-family: 'Heebo';
@@ -216,7 +203,168 @@
 	line-height: 24 / 16 * 100%;
 }
 
+.featured-works {
+	margin: 0px 0px 79px 0px;
 
-.item-2__title {}
+}
 
-.item-2__description {}
+.featured-works__container {
+	display: flex;
+	flex-direction: column;
+	padding: 0px 30px;
+	@media(max-width: 612px) {
+	padding: 0px 11px;
+	}
+}
+.featured-works__title {
+	font-family: 'Heebo';
+	font-weight: 400;
+	font-size: 22px;
+	padding: 38px 0px 10px 0px;
+	@media(max-width: $md4){
+		font-size: 22px;
+		text-align: center;
+		padding: 27px 0px 27px 0px;
+	}
+}
+.featured-works__item-1 {
+	display: flex;
+	flex-direction: row;
+	padding: 35px 0px 35px 0px;
+	@media(max-width: $md4) {
+		flex-direction: column;
+		padding: 0px 0px 25px 0px;
+		border-bottom: 1px solid $gray;
+		margin: 0px 0px 150px 0px;
+	}
+	@media(max-width: 674px){
+		flex-direction: column;
+	}
+}
+.featured-works-image {
+	padding: 0px 18px 0px 0px;
+	@media(max-width: $md4) {
+		
+		padding: 0px 0px 0px 0px;
+	}
+}
+.featured-works-image img{
+	@media(max-width: $md4){
+		width: 100%;
+	}
+	@media(max-width: 674px) {
+		flex-direction: column;
+		width: 100%;
+		padding: 0px 0px 17px 0px;
+	}
+}
+.featured-works-info {
+	flex-direction: column;
+}
+.title-info {
+	font-family: 'Heebo';
+	font-weight: 700;
+	font-size: 30px;
+	padding: 0px 0px 25px 0px;
+	@media(max-width: $md3){
+		font-size: 24px;
+		padding: 0px 0px 15px 0px;
+	}
+	@media(max-width: $md4) {
+		font-size: 24px;
+		padding: 22px 0px 22px 0px;
+	}
+}
+
+.info__sd {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px 0px 20px 0px;
+	@media(max-width: $md3){
+		padding: 0px 0px 10px 0px;
+	}
+}
+.sd-info__date {
+	font-family: 'Heebo';
+	font-weight: 900;
+	font-size: 18px;
+	padding: 3.5px 10px 3.5px 10px;
+	margin: 0px 26px 0px 0px;
+	background-color: #142850;
+	border-radius: 12.5px;
+	color: white;
+	@media(max-width: $md4) {
+		font-size: 16px;
+	}
+}
+.sd-info__type {
+	font-family: 'Heebo';
+	font-weight: 400;
+	font-size: 20px;
+	color: $gray;
+	margin: 0px 0px 5px 0px;
+	@media(max-width: $md4) {
+		font-size: 16px;
+	}
+}
+.description-info {
+	font-family: 'Heebo';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+}
+.featured-works__item-2 {
+	display: flex;
+	flex-direction: row;
+	padding: 35px 0px 35px 0px;
+	border-top: 1px solid $gray;
+	border-bottom: 1px solid $gray;
+	@media(max-width: $md4) {
+		position: absolute;
+		top: -200%;
+		visibility: hidden;
+	}
+	@media(max-width: 674px) {
+		flex-direction: column;
+	}
+}
+.featured-works__item-3 {
+	display: flex;
+	flex-direction: row;
+	padding: 35px 0px 35px 0px;
+	@media(max-width: $md4) {
+		position: absolute;
+		top: -200%;
+		visibility: hidden;
+	}
+	@media(max-width: 674px) {
+		flex-direction: column;
+	}
+}
+.footer__container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 50px 30px;
+}
+.footer__icons{
+	flex-direction: row;
+	text-align: center;
+	padding: 0px 0px 28px 0px;
+	a:not(:last-child){
+		padding: 0px 37px 0px 0px;
+		@media(max-width: 320px){
+			padding: 0px 15px 0px 0px;
+		}
+	}
+}
+.footer__text{
+	font-family: 'Heebo';
+	font-weight: 400;
+	font-size: 14px;
+	@media(max-width: 320px) {
+		font-size: 10px;
+	}
+	text-align: center;
+}
