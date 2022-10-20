@@ -404,7 +404,7 @@ body {
 }
 @media (max-width: 479.98px) {
   .featured-works__title {
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
     padding: 27px 0px 27px 0px;
   }
@@ -507,7 +507,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   color: #8695A4;
-  margin: 0px 0px 5px 0px;
+  margin: 0px 0px 1px 0px;
 }
 @media (max-width: 479.98px) {
   .sd-info__type {
